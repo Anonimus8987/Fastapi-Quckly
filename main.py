@@ -18,12 +18,8 @@ app = FastAPI(
     version="0.0.1",
     contact={
         "name": "Abdulaziz",
-        "url": "http://github.com/HeimanPictures",
-    },
-    license_info={
-        "name": "GNU GENERAL PUBLIC License v3.0",
-        "url": "https://www.gnu.org/licenses/gpl-3.0.en.html",
-    },
+        "url": "http://github.com/Anonimus8987",
+    }
 )
 
 origins = [

@@ -6,7 +6,7 @@ DOMAIN = os.getenv("DOMAIN")
 # MongoDB connection
 MONGODB_NAME = "quickly" 
 MONGODB_COL = "quickly" 
-MONGODB_URL = os.getenv("MONGODB_URL")
+MONGODB_URL = os.getenv("mongodb+srv://Quickly:<poker3301>@atlascluster.gdxe42b.mongodb.net/")
 mongoClient =  motor.motor_asyncio.AsyncIOMotorClient(MONGODB_URL)
 mongodb = mongoClient[MONGODB_NAME][MONGODB_COL]
 MONGODB_NAME2 = "quicklyAuth" 
