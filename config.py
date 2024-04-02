@@ -1,13 +1,13 @@
 import os
 import motor.motor_asyncio
 
-DOMAIN = os.getenv("DOMAIN")
+DOMAIN = os.getenv("cluster0.dmivqxg.mongodb.net")
 
 # MongoDB connection
 MONGODB_NAME = "quickly" 
 MONGODB_COL = "quickly" 
-MONGODB_URL = os.getenv("mongodb+srv://Quickly:<poker3301>@atlascluster.gdxe42b.mongodb.net/")
-mongoClient =  motor.motor_asyncio.AsyncIOMotorClient(MONGODB_URL)
+MONGODB_URL = os.getenv("mongodb+srv://bmwzxc94:poker3301@cluster0.dmivqxg.mongodb.net/")
+mongoClient =  motor.motor_asyncio.AsyncIOMotorClient("mongodb+srv://bmwzxc94:poker3301@cluster0.dmivqxg.mongodb.net/")
 mongodb = mongoClient[MONGODB_NAME][MONGODB_COL]
 MONGODB_NAME2 = "quicklyAuth" 
 MONGODB_COL2 = "quicklyAuth" 
